@@ -1,6 +1,6 @@
 var mongoose = require('mongoose');
 
-const REMOTE_MONGO = 'mongodb://cavp28:Converse1!@ds125588.mlab.com:25588/todoapp';
+const REMOTE_MONGO = 'mongodb://CAVP28:Converse1!@ds125588.mlab.com:25588/todoapp';
 const LOCAL_MONGO = 'mongodb://localhost:27017/TodoApp';
 const MONGO_URI = process.env.PORT ? REMOTE_MONGO : LOCAL_MONGO;
 
